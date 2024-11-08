@@ -41,7 +41,6 @@ header{
         height: 50px;
         width: 100px;
         padding-top: 5px;
-        object-fit: cover;
         }
     }
     .mid{
@@ -93,18 +92,20 @@ main{
     gap: 60px;
 }
 
-aside{
+aside {
     margin-top: 20px;
     width: 15vw;
     height: auto;
-}
+  }
+
 
 aside > ul{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 10px;
+    gap: 5px;
+    
 
     & > li{
         cursor: pointer;
@@ -112,7 +113,7 @@ aside > ul{
         height: 40px;
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         border-radius: 12px;
         transition: 0.3s ease;
         
