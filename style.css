@@ -229,6 +229,9 @@ nav{
 .info{
     display: flex;
     gap: 10px;
+    &> p{
+        color: rgba(158, 153, 153, 0.995);
+    }
 }
 
 .details{
@@ -236,4 +239,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    &> p{
+        color: rgba(158, 153, 153, 0.995);
+    }
 }
