@@ -224,8 +224,16 @@ nav{
     flex-direction: column;
     align-items: start;
     width: 90%;
+    gap: 10px;
 }
 .info{
     display: flex;
     gap: 10px;
+}
+
+.details{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
